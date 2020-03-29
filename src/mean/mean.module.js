@@ -31,7 +31,7 @@ const mean = (georaster, geom) => {
           const numCells = row.length;
           for (let columnIndex = 0; columnIndex < numCells; columnIndex++) {
             const value = row[columnIndex];
-            if (value !== noDataValue) {
+            if (value !== noDataValue || isNaN(value) == false ) {
               cellsWithValues++;
               sumForBand += value;
             }
