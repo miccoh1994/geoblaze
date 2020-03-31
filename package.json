@@ -50,7 +50,7 @@
   "homepage": "https://github.com/GeoTIFF/geoblaze#readme",
   "dependencies": {
     "@turf/combine": "^4.7.3",
-    "georaster": "^1.0.3",
+    "georaster": "github:miccoh1994/georaster",
     "mathjs": "^6.6.1",
     "node-fetch": "^2.6.0",
     "proj4": "^2.6.0",
