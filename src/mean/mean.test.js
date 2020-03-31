@@ -43,7 +43,7 @@ describe('Geoblaze Mean Feature', () => {
     it('Got Correct Value', () => {
       return load(url).then(georaster => {
         const value = Number(mean(georaster)[0].toFixed(2));
-        expect(value).to.equal(132.04);
+        expect(value).to.equal(0.628);
       });
     });
   });

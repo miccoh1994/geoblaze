@@ -1,7 +1,7 @@
 const { expect } = require('chai');
 const puppeteer = require('puppeteer');
 
-const url2GeoTIFF = 'http://localhost:3000/data/example_4326.tif';
+const url2GeoTIFF = 'http://localhost:3000/data/deflate.tif';
 
 describe('Loading Production Build', function() {
   this.timeout(5000);
